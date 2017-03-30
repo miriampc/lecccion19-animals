@@ -1,0 +1,40 @@
+*{
+  font: "Helvetica";
+}
+header{
+  text-align: center;
+  border-bottom: 1px solid;
+}
+.principal{
+  margin-left: 20%;
+  margin-right: 10%;
+}
+.contenedor{
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+img{
+  margin: 10px;
+  width: 250px;
+  height: 220px;
+}
+article{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.sepia{
+  -webkit-filter: sepia(1);
+  -o-filter: sepia(1);
+  filter: sepia(1);
+}
+.invertir-color{
+  -webkit-filter: invert(.8);
+  -o-filter: invert(.8);
+  filter: invert(.8);
+}
+.blanco-negro{
+  -webkit-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}

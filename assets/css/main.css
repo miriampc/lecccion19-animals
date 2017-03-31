@@ -1,22 +1,26 @@
 *{
-  font: "Helvetica";
+  font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 header{
   text-align: center;
-  border-bottom: 1px solid;
+  padding: 1%;
+  background-color: #393F3E;
+  color: #48C9B0;
+  border-radius: 5px;
 }
 .principal{
   margin-left: 20%;
-  margin-right: 10%;
+  margin-right: 20%;
 }
 .contenedor{
   display: inline-flex;
   flex-wrap: wrap;
 }
 img{
-  margin: 10px;
+  margin: 1%;
   width: 250px;
   height: 220px;
+  border-radius: 20px;
 }
 article{
   margin-top: 10px;

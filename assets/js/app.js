@@ -1,4 +1,3 @@
-//window.addEventListener('load',function(){
   var animal=document.getElementsByClassName('animal');
   var select=document.getElementById('select');
   select.onchange=function(){
@@ -34,4 +33,3 @@
       }
     }
   }
-//});
